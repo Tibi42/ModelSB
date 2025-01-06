@@ -2,14 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html {
-    height: 100%;
+    font-size: 62.5%; /* 1rem = 10px */
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.container {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1E2337;
 }
